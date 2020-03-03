@@ -1,6 +1,6 @@
-# [watermarkjs](https://github.com/saucxs/watermark-dom)
+# [watermarkjs](https://github.com/songxing66/watermark)
 
-## [npm](http://10.1.3.183:4873/-/web/detail/@joy/watermarkjs)
+## [npm](https://www.npmjs.com/package/@songxizi/better-watermark)
 
 `watermark.js`是基于 DOM 对象实现的 BS 系统的水印，确保系统保密性，安全性，降低数据泄密风险，简单轻量，支持多属性配置，动态计算水印，水印防被删（监听水印组件元素删除并重新添加，监听改变水印的属性并重新添加）。
 
@@ -21,7 +21,7 @@
 
 `watermark.js`是必须要引进的组件
 
-第一步：获取组件方式：`http://192.168.1.110/web-support/watermark`
+第一步：获取组件方式：`https://github.com/songxing66/watermark`
 
 第二步：clone 后，在需要加水印的相关页面引入水印文件"watermark.js":
 
@@ -42,15 +42,15 @@
 第一步：npm 获取水印组件包：
 
 ```
-npm install watermark-dom
+npm install @songxizi/better-watermark
 ```
 
 第二步：引入水印模块：
 
 ```
-import watermark from 'watermark-dom'
+import watermark from '@songxizi/better-watermark'
 或者
-var watermarkDom = require("watermark-dom")
+var watermarkDom = require("@songxizi/better-watermark")
 ```
 
 第三步：在确保页面 DOM 加载完毕之后，调用 watermark 的 load 方法(手动加载):
